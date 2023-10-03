@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "765A497E-D217-4796-9F25-750821D56547"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7682C753-7796-48A6-BAB7-3F8E9018DD6E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarMock/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "peripheralManagerDidUpdateState(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7682C753-7796-48A6-BAB7-3F8E9018DD6E - a397082754f631bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarMock.CarMockPeripheral.peripheralManager(_: __C.CBPeripheralManager, willRestoreState: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()"
+                  moduleName = "CarMock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CCB/workspace/CarMock/CarMock/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "7682C753-7796-48A6-BAB7-3F8E9018DD6E - 2a8bd8de396a31b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarMock.CarMockPeripheral.peripheralManagerDidUpdateState(__C.CBPeripheralManager) -&gt; ()"
+                  moduleName = "CarMock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CCB/workspace/CarMock/CarMock/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "7682C753-7796-48A6-BAB7-3F8E9018DD6E - 2a8bd8de396a318c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarMock.CarMockPeripheral.peripheralManagerDidUpdateState(__C.CBPeripheralManager) -&gt; ()"
+                  moduleName = "CarMock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CCB/workspace/CarMock/CarMock/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64C8D5CD-D185-4558-A806-51B25BE3AE6D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarMock/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "peripheralManager(_:didReceiveWrite:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "64C8D5CD-D185-4558-A806-51B25BE3AE6D - af836c42f556e914"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarMock.CarMockPeripheral.peripheralManager(_: __C.CBPeripheralManager, didReceiveWrite: Swift.Array&lt;__C.CBATTRequest&gt;) -&gt; ()"
+                  moduleName = "CarMock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CCB/workspace/CarMock/CarMock/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "64C8D5CD-D185-4558-A806-51B25BE3AE6D - af836c42f556e9f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarMock.CarMockPeripheral.peripheralManager(_: __C.CBPeripheralManager, didReceiveWrite: Swift.Array&lt;__C.CBATTRequest&gt;) -&gt; ()"
+                  moduleName = "CarMock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CCB/workspace/CarMock/CarMock/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "64C8D5CD-D185-4558-A806-51B25BE3AE6D - af836c42f556ea0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarMock.CarMockPeripheral.peripheralManager(_: __C.CBPeripheralManager, didReceiveWrite: Swift.Array&lt;__C.CBATTRequest&gt;) -&gt; ()"
+                  moduleName = "CarMock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CCB/workspace/CarMock/CarMock/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1291AE6-0F7D-4C00-B31D-37EC1FB54316"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarMock/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "CarMockPeripheral"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A1291AE6-0F7D-4C00-B31D-37EC1FB54316 - 8b4b5db342b5f2fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarMock.MyPeripheralManager.peripheralManager.getter : __C.CBPeripheralManager"
+                  moduleName = "CarMock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CCB/workspace/CarMock/CarMock/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "A1291AE6-0F7D-4C00-B31D-37EC1FB54316 - 37478f55bb656401"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarMock.MyPeripheralManager.peripheralManager.setter : __C.CBPeripheralManager"
+                  moduleName = "CarMock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CCB/workspace/CarMock/CarMock/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "A1291AE6-0F7D-4C00-B31D-37EC1FB54316 - ccc54a4f86f2e510"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarMock.MyPeripheralManager.peripheralManager.modify : __C.CBPeripheralManager"
+                  moduleName = "CarMock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CCB/workspace/CarMock/CarMock/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "A1291AE6-0F7D-4C00-B31D-37EC1FB54316 - bd661c3e1d2c2fb9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarMock.MyPeripheralManager.peripheralManager.modify : __C.CBPeripheralManager with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "CarMock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CCB/workspace/CarMock/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "A1291AE6-0F7D-4C00-B31D-37EC1FB54316 - 27f0fb7ccd0db506"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarMock.MyPeripheralManager.init() -&gt; CarMock.MyPeripheralManager"
+                  moduleName = "CarMock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CCB/workspace/CarMock/CarMock/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3A5DFAB-FC22-43CD-ACC7-F24FC659900A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarMock/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "CarMockPeripheral"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C3A5DFAB-FC22-43CD-ACC7-F24FC659900A - 20c2513ae570f282"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarMock.MyPeripheralManager.advertisementDataLocalNameKey.getter : Swift.String"
+                  moduleName = "CarMock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CCB/workspace/CarMock/CarMock/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "C3A5DFAB-FC22-43CD-ACC7-F24FC659900A - 27f0fb7ccd0db5ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarMock.MyPeripheralManager.init() -&gt; CarMock.MyPeripheralManager"
+                  moduleName = "CarMock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CCB/workspace/CarMock/CarMock/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "272">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A40DBF57-6573-4FC5-9B64-6C8A23715B88"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarMock/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "peripheralManagerDidUpdateState(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A40DBF57-6573-4FC5-9B64-6C8A23715B88 - 2a8bd8de396a32bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarMock.CarMockPeripheral.peripheralManagerDidUpdateState(__C.CBPeripheralManager) -&gt; ()"
+                  moduleName = "CarMock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CCB/workspace/CarMock/CarMock/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "A40DBF57-6573-4FC5-9B64-6C8A23715B88 - 2a8bd8de396a3294"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarMock.CarMockPeripheral.peripheralManagerDidUpdateState(__C.CBPeripheralManager) -&gt; ()"
+                  moduleName = "CarMock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CCB/workspace/CarMock/CarMock/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E00BFD4-D5DC-4504-8122-82F020CC7540"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarMock/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "peripheralManagerDidUpdateState(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76885B30-C0D5-43FC-B49C-8BBA147FE91A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarMock/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "peripheralManager(_:didReceiveRead:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "589392AA-9965-42AC-8E72-7C8A64659897"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarMock/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "peripheralManager(_:didReceiveWrite:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A931AA17-33AC-4566-8926-3DBFA8F1CC4B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarMock/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "peripheralManager(_:didReceiveWrite:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A931AA17-33AC-4566-8926-3DBFA8F1CC4B - af836c42f556e914"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarMock.CarMockPeripheral.peripheralManager(_: __C.CBPeripheralManager, didReceiveWrite: Swift.Array&lt;__C.CBATTRequest&gt;) -&gt; ()"
+                  moduleName = "CarMock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CCB/workspace/CarMock/CarMock/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "2116">
+               </Location>
+               <Location
+                  uuid = "A931AA17-33AC-4566-8926-3DBFA8F1CC4B - af836c42f556e914"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarMock.CarMockPeripheral.peripheralManager(_: __C.CBPeripheralManager, didReceiveWrite: Swift.Array&lt;__C.CBATTRequest&gt;) -&gt; ()"
+                  moduleName = "CarMock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CCB/workspace/CarMock/CarMock/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "2120">
+               </Location>
+               <Location
+                  uuid = "A931AA17-33AC-4566-8926-3DBFA8F1CC4B - af836c42f556e935"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CarMock.CarMockPeripheral.peripheralManager(_: __C.CBPeripheralManager, didReceiveWrite: Swift.Array&lt;__C.CBATTRequest&gt;) -&gt; ()"
+                  moduleName = "CarMock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CCB/workspace/CarMock/CarMock/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "2100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28586530-1D3A-4FAE-8DA9-A8299DBE5547"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarMock/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "peripheralManager(_:didReceiveWrite:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
