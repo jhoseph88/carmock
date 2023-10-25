@@ -19,3 +19,8 @@
 
 # Go workspace file
 go.work
+
+#XCode workspace files
+CarMock.xcodeproj/project.xcworkspace/xcshareddata/
+CarMock.xcodeproj/xcshareddata/
+CarMock.xcodeproj/project.xcworkspace/xcuserdata
