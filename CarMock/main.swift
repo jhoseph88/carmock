@@ -70,6 +70,8 @@ class CarMockPeripheral: NSObject, CBPeripheralManagerDelegate, CBPeripheralDele
         "0100\r": [Array("7E8 06 41 00 BE 3E A8 13 \r".utf8),  Array("\r>".utf8)],
         "0120\r": [Array("7E8 06 41 20 80 05 B0 11 \r".utf8),  Array("\r>".utf8)],
         "0140\r": [Array("7E8 06 41 40 FE D0 84 00 \r".utf8),  Array("\r>".utf8)],
+        "0902\r": [Array("7E8 10 14 49 02 01 57 56 57 \r7E8 21 41 41 37 41 4A 31 43 \r7E8 22 57 32 39 30 37 35 33 \r".utf8), Array("\r>".utf8)],
+        "0904\r": [Array("7E8 10 13 49 04 01 30 37 4B \r7E8 21 39 30 36 30 35 35 44 \r7E8 22 47 20 34 37 34 30 00 \r".utf8), Array("\r>".utf8)],
         "ATDPN\r": [Array("A6\r\r>".utf8)],
         "ATSP6\r": [Array("OK\r\r>".utf8)],
         "ATSP7\r": [Array("OK\r\r>".utf8), Array(">".utf8)],
