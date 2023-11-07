@@ -53,8 +53,26 @@ class CarMockPeripheral: NSObject, CBPeripheralManagerDelegate, CBPeripheralDele
         "ATZ\rATE0\r\r\r\r\r\r\r\r\r": [Array("ATZ\r".utf8), Array("\r\rELM327 v1.5\r\r>".utf8)],
         "\r\r": [Array("\r".utf8), Array("?\r\r>".utf8)],
         "ATE0\r": [Array("ATE0\r".utf8), Array("OK\r\r>".utf8)],
-        "0100\r": [Array("4100BEEA813\r".utf8), Array("\r>".utf8)],
-        "0902\r": [Array("014\n0: 49 02 01 57 56 57\n1: 41 41 37 41 4A 31 43\n2: 57 32 39 30 37 35 33".utf8)]
+        "STI\r": [Array("?\r\r>".utf8)],
+        "VTI\r": [Array("?\r\r>".utf8)],
+        "ATD\r": [Array("OK\r\r>".utf8)],
+        "ATD0\r": [Array("OK\r\r>".utf8)],
+        "ATSP0\r": [Array("OK\r\r>".utf8)],
+        "ATH1\r": [Array("OK\r\r>".utf8)],
+        "ATM0\r": [Array("OK\r\r>".utf8)],
+        "ATS6\r": [Array("?\r\r>".utf8)],
+        "ATS0\r": [Array("OK\r\r>".utf8)],
+        "ATAT1\r": [Array("OK\r\r>".utf8)],
+        "ATAL\r": [Array("OK\r\r>".utf8)],
+        "ATST34\r": [Array("OK\r\r>".utf8)],
+        "ATST32\r": [Array("OK\r\r>".utf8)],
+        "ATST96\r": [Array("OK\r\r>".utf8)],
+        "0100\r": [Array("7E8 06 41 00 BE 3E A8 13 \r".utf8),  Array("\r>".utf8)],
+        "0120\r": [Array("7E8 06 41 20 80 05 B0 11 \r".utf8),  Array("\r>".utf8)],
+        "0140\r": [Array("7E8 06 41 40 FE D0 84 00 \r".utf8),  Array("\r>".utf8)],
+        "ATDPN\r": [Array("A6\r\r>".utf8)],
+        "ATSP6\r": [Array("OK\r\r>".utf8)],
+        "ATSP7\r": [Array("OK\r\r>".utf8), Array(">".utf8)],
     ]
     
     required override init() {
@@ -111,10 +129,9 @@ class CarMockPeripheral: NSObject, CBPeripheralManagerDelegate, CBPeripheralDele
         if let request = requests.first {
             if let value = request.value {
                 let valueBytes: [UInt8] = [UInt8](value)
-                print("Received data: \(valueBytes)")
-
                 let dtcCharacteristic: CBMutableCharacteristic = self.dtcService.characteristics?.first as! CBMutableCharacteristic
                 let reqString = String(bytes: valueBytes, encoding: String.Encoding.utf8)
+                print("Decoded data received: \(reqString)")
                 let valsToUpdate = self.ELM_MAP[reqString!]!
                 
                 for updatedVal in valsToUpdate {
