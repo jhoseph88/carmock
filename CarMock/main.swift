@@ -61,6 +61,7 @@ class CarMockPeripheral: NSObject, CBPeripheralManagerDelegate, CBPeripheralDele
         "ATSP0\r": [Array("OK\r\r>".utf8)],
         "ATH1\r": [Array("OK\r\r>".utf8)],
         "ATM0\r": [Array("OK\r\r>".utf8)],
+        "ATHM0\r": [Array("OK\r\r>".utf8)],
         "ATS6\r": [Array("?\r\r>".utf8)],
         "ATS0\r": [Array("OK\r\r>".utf8)],
         "ATAT1\r": [Array("OK\r\r>".utf8)],
