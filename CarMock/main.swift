@@ -52,6 +52,7 @@ class CarMockPeripheral: NSObject, CBPeripheralManagerDelegate, CBPeripheralDele
     let ELM_MAP: [String: [[UInt8]]] = [
         "ATZ\rATE0\r\r\r\r\r\r\r\r\r": [Array("ATZ\r".utf8), Array("\r\rELM327 v1.5\r\r>".utf8)],
         "\r\r": [Array("\r".utf8), Array("?\r\r>".utf8)],
+        "ATZ\r": [Array("OK\r\r>".utf8)],
         "ATE0\r": [Array("OK\r\r>".utf8)],
         "STI\r": [Array("?\r\r>".utf8)],
         "VTI\r": [Array("?\r\r>".utf8)],
@@ -95,7 +96,9 @@ class CarMockPeripheral: NSObject, CBPeripheralManagerDelegate, CBPeripheralDele
         "ATV1\r": [Array("OK\r\r>".utf8)],
         "ATCM000\r": [Array("OK\r\r>".utf8)],
         "ATSH200\r": [Array("OK\r\r>".utf8)],
-        "19C000100003011\r": [Array("NO DATA\r\r>".utf8)]
+        "19C000100003011\r": [Array("NO DATA\r\r>".utf8)],
+        // Get stored errors - Just P0455 initially; TODO - show more / randomize
+        "03\r": [Array("7E8 04 43 01 04 55 \r".utf8)]
     ]
     
     required override init() {
